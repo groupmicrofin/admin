@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">groupmicrofinadmin</string>
+    <string name="grpName">Group Name</string>
+    <string name="createGroupL">Create Group</string>
+    <string name="grpNameHint">Enter Group Name</string>
+</resources>
