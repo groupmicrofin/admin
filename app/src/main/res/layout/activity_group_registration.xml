@@ -5,6 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:columnCount="2"
+    android:padding="16dp"
     tools:context="com.groupmicrofin.admin.groupmicrofinadmin.GroupRegistration">
 
     <TextView
@@ -17,12 +18,116 @@
         android:layout_height="wrap_content"
         android:layout_width="wrap_content"
         android:id="@+id/grpName"
-        android:hint="@string/grpNameHint"/>
+        android:hint="@string/grpNameHint"
+        />
 
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="@string/frequencyL"
+        />
+
+    <EditText
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:id="@+id/frequency"
+        />
+
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="@string/startDateL"
+        />
+
+    <EditText
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:id="@+id/startDate"
+        />
+
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="@string/meetingDayL"
+        />
+
+    <EditText
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:id="@+id/meetingDay"
+        />
+
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="@string/interestRateL"
+        />
+
+    <EditText
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:id="@+id/interestRate"
+        android:inputType="numberDecimal"
+        />
+
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="@string/maxLoanEligibleL"
+        />
+
+    <EditText
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:id="@+id/maxLoanEligibility"
+        android:inputType="number"
+        />
+
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="@string/guarantorL"
+        />
+
+    <EditText
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:id="@+id/guarantorsCount"
+        android:inputType="number"
+        />
+
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="@string/grpEmailL"
+        />
+
+    <EditText
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:id="@+id/grpEmail"
+        android:inputType="textEmailAddress"
+        />
+
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="@string/passwordL"
+        />
+
+    <EditText
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:id="@+id/grpAcctPassword"
+        android:inputType="numberPassword"
+        android:maxLength="6"
+        />
+    
     <Button
         android:id="@+id/createGroup"
         android:text="@string/createGroupL"
         android:layout_columnSpan="2"
+        android:layout_gravity="center"
         />
 
 

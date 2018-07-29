@@ -2,5 +2,15 @@
     <string name="app_name">groupmicrofinadmin</string>
     <string name="grpName">Group Name</string>
     <string name="createGroupL">Create Group</string>
+    <string name="frequencyL">Frequncy</string>
+    <string name="startDateL">Group Start Date:</string>
+    <string name="meetingDayL">Meeting Day</string>
+    <string name="interestRateL">Interest Rate</string>
+    <string name="shareAmountL">Share Amount</string>
+    <string name="maxLoanEligibleL">Max Loan Eligibility</string>
+    <string name="guarantorL">Number of Guarantors</string>
+    <string name="intGracePeriodL">Interest Grace Period</string>
+    <string name="grpEmailL">Group Email</string>
+    <string name="passwordL">PIN</string>
     <string name="grpNameHint">Enter Group Name</string>
 </resources>
