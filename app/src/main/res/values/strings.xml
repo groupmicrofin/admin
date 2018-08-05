@@ -13,4 +13,11 @@
     <string name="grpEmailL">Group Email</string>
     <string name="passwordL">PIN</string>
     <string name="grpNameHint">Enter Group Name</string>
+    <string name="shareInstallValueL">Share Installment Value</string>
+
+    <string-array name="activityList">
+        <item>Group Registration</item>
+        <item>Member Registration</item>
+        <item>Collection</item>
+    </string-array>
 </resources>
